@@ -63,7 +63,7 @@ let ventanas =[ {
     oferta:false
   },
 ]
-let ventanasSlice= ventanas.slice(0,7);
+let ventanasSlice= ventanas.slice(0,8);
 console.log(ventanas);
 console.log(ventanasSlice);
 
