@@ -54,6 +54,14 @@ let ventanas =[ {
     descripcion: "Ventana de 1600x 1600 con DVH", 
     oferta:false
   },
+  {
+    id:"Burlete Rollo x 100mts",
+    premarco: true,
+    precio: "$13.000",
+    stock: false,
+    descripcion: "Burlete cuña para ventanas", 
+    oferta:false
+  },
 ]
 let ventanasSlice= ventanas.slice(0,7);
 console.log(ventanas);
