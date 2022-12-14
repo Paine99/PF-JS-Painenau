@@ -68,6 +68,4 @@ ventanasSlice.sort((a, b) => {
   }
   return 0;
 });
-if confirm("Quiere ver Nuestras ofertas"){
 
-}
