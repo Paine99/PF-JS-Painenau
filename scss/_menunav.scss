@@ -1,0 +1,59 @@
+.header{
+	background-color:$bgnav;
+	height: $var80px;
+	position: fixed;
+	width: $MaxAncho;
+	top: $valornull;
+	left: $valornull;
+	overflow: hidden;
+	z-index: $Mayor;
+}
+.nav{
+	display: $dflex;
+	justify-content: space-between;
+	max-width: 992px;
+	margin: $valornull auto;
+}
+.nav-link {
+	color: $bgLigth;
+	text-decoration: $none;
+  }
+  
+  .logo {
+	font-size: 30px;
+	font-weight: bold;
+	padding: $valornull 40px;
+	line-height: $var80px;
+  }
+  
+  .nav-menu {
+	display: $dflex;
+	margin-right: 40px;
+	list-style: $none;
+  }
+  
+  .nav-menu-item {
+	font-size: 14px;
+	margin: $valornull 10px;
+	line-height: 70px;
+	text-transform: uppercase;
+	width: max-content;
+  }
+  
+  .nav-menu-link {
+	padding: 8px 12px;
+	border-radius: 3px;
+  }
+  /* TOGGLE */
+.nav-toggle {
+	color: $bgLigth;
+	background: $none;
+	border: $none;
+	font-size: 30px;
+	padding: $valornull 20px;
+	line-height: $var60px;
+	cursor: pointer;
+  
+	display: $none;
+  }
+  

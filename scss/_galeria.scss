@@ -1,0 +1,22 @@
+/*GALERIA*/
+#galeria .col-lg-3 {
+  padding: 25px;
+}
+
+#galeria {
+  img {
+    width: $MaxAncho;
+    height: 250px;
+    margin-top: 15px;
+  }
+}
+.hoverimg{
+  img{
+    border-radius: 10px;
+  }
+  :hover{
+    border: 2px solid #000;
+    transition: all 0.3s ease;
+  }
+}
+/*GALERIA*/

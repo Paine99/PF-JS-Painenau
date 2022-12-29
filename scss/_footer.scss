@@ -1,0 +1,47 @@
+  /*AQUI COMIENZA EL FOOTER*/
+  footer {
+  	width: $MaxAncho;
+  	height: 120px;
+  	display: grid;
+  	grid-template-columns: 64px 64px 64px 64px;
+  	grid-template-rows: 1fr;
+  	justify-content: center;
+  	column-gap: 30px;
+  	border: 2px solid #000;
+  	/*Se cambio flexbox por grids*/
+  }
+
+  footer {
+  	a {
+  		display: grid;
+
+  		.item1 {
+  			@include hijosgrid();
+  		}
+
+  		.item2 {
+			@include hijosgrid();
+  		}
+
+  		.item3 {
+			@include hijosgrid();
+  		}
+
+  		.item4 {
+			@include hijosgrid();
+  		}
+
+  		&:hover {
+  			transform: scale(1.5);
+  			transition: all 1s ease;
+  		}
+  	}
+  }
+
+  footer {
+  	a {
+  		align-self: center;
+  	}
+  }
+
+  /*AQUI TERMINA EL FOOTER*/

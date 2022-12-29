@@ -1,0 +1,57 @@
+* {
+  margin: $valornull;
+  padding: $valornull;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $fuente;
+  padding-top: $var80px;
+}
+
+.texto {
+  padding-top: $var60px*2;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.texto2{
+  @extend .texto;
+}
+.texto3{
+  @extend .texto;
+}
+.carrusel_fotos img {
+  height: 498px;
+
+}
+
+.ancho_alto {
+  width: $MaxAncho;
+  height: 420px;
+}
+
+.anchologo {
+  width: 200px;
+  height: 65px;
+}
+
+.ancho_icons {
+  width: 64px;
+  height: 64px;
+}
+
+.anchoaltomarcas {
+  width: 100px;
+  height: 100px;
+}
+.color {
+  color: #000;
+  @include Df_Direction();
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
