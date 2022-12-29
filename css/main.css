@@ -216,7 +216,7 @@ footer a {
   outline: none; }
 
 #contenedor-productos {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 60px auto;
   display: flex;
   justify-content: space-between;
