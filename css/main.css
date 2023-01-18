@@ -6,7 +6,10 @@
 
 body {
   font-family: sans-serif;
-  padding-top: 80px; }
+  padding-top: 80px;
+  transition: .3s ease all; }
+  body.dark {
+    background: #292929; }
 
 .texto, .texto2, .texto3 {
   padding-top: 120px;
