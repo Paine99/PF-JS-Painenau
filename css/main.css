@@ -9,7 +9,7 @@ body {
   padding-top: 80px;
   transition: .3s ease all; }
   body.dark {
-    background: #292929; }
+    background: #969696; }
 
 .texto, .texto2, .texto3 {
   padding-top: 120px;
@@ -205,14 +205,16 @@ footer a {
   border: none;
   color: royalblue;
   font-size: 40px;
-  background-color: white;
+  background-color: #fff;
   border-radius: 50%;
   padding: 10px 20px;
   transition: all .3s; }
+  body.dark #boton-carrito {
+    background-color: #969696; }
 
 #boton-carrito:hover {
   cursor: pointer;
-  color: white;
+  color: #fff;
   background-color: royalblue; }
 
 #boton-carrito:focus {
@@ -240,7 +242,7 @@ p {
 
 .boton-agregar {
   background-color: royalblue;
-  color: white;
+  color: #fff;
   font-size: 18px;
   font-weight: 700;
   padding: 5px;
