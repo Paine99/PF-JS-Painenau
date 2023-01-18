@@ -362,6 +362,11 @@ img {
   width: 100%; }
 
 .imgCarrusel {
-  width: 100%;
+  width: 20%;
+  height: 350px;
+  object-fit: cover; }
+
+.imgCarrusel2 {
+  width: 9%;
   height: 350px;
   object-fit: cover; }
