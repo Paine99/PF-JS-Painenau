@@ -2,14 +2,15 @@
 const options = {
 	method: 'GET',
 	headers: {
-		'X-RapidAPI-Key': 'SIGN-UP-FOR-KEY',
-		'X-RapidAPI-Host': 'youtube-video-info.p.rapidapi.com'
+		'X-RapidAPI-Key': '2a477d8dcfmsh50194df537f9b2ap128a7ejsncf6739276fb6',
+		'X-RapidAPI-Host': 'aerisweather1.p.rapidapi.com'
 	}
 };
 
-fetch('https://youtube-video-info.p.rapidapi.com/video_formats?video=DHBFtGhvPtc', options)
+fetch('https://aerisweather1.p.rapidapi.com/sunmoon/ankara,tr', options)
 	.then(response => response.json())
 	.then(response => console.log(response))
 	.catch(err => console.error(err));
   //fetch
+
   
