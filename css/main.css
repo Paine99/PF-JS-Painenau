@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden; }
+  box-sizing: border-box; }
 
 body {
   font-family: sans-serif;
@@ -15,9 +14,6 @@ body {
   padding-top: 120px;
   padding-left: 15px;
   padding-right: 15px; }
-
-.carrusel_fotos img {
-  height: 498px; }
 
 .ancho_alto {
   width: 100%;
@@ -35,15 +31,8 @@ body {
   width: 100px;
   height: 100px; }
 
-.color {
-  color: #000;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1; }
+.marcas {
+  overflow: hidden; }
 
 .header {
   background-color: #0769e9;
@@ -369,10 +358,10 @@ img {
     background: none;
     color: #fff; }
 
-.swiper-ayuda {
+.swiper {
   width: 100%; }
 
 .imgCarrusel {
   width: 100%;
-  height: 700px;
+  height: 350px;
   object-fit: cover; }

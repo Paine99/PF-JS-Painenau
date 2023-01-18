@@ -2,7 +2,6 @@
   margin: $valornull;
   padding: $valornull;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 body {
@@ -25,11 +24,6 @@ body {
 .texto3{
   @extend .texto;
 }
-.carrusel_fotos img {
-  height: 498px;
-
-}
-
 .ancho_alto {
   width: $MaxAncho;
   height: 420px;
@@ -49,13 +43,6 @@ body {
   width: 100px;
   height: 100px;
 }
-.color {
-  color: #000;
-  @include Df_Direction();
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
+.marcas{
+  overflow: hidden;
 }
-
