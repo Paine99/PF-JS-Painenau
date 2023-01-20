@@ -123,10 +123,6 @@ body {
     left: 0; }
   .nav-toggle:focus:not(:focus-visible) {
     outline: none; }
-  .carousel-control-next,
-  .carousel-control-prev,
-  .carousel-indicators {
-    z-index: 1; }
   .texto, .texto2, .texto3 {
     padding-top: 0; } }
 

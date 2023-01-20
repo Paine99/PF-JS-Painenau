@@ -50,13 +50,6 @@
   .nav-toggle:focus:not(:focus-visible) {
     outline: none;
   }
-
-  .carousel-control-next,
-  .carousel-control-prev,
-  .carousel-indicators {
-    z-index: $Menor;
-  }
-
   .texto {
     padding-top: $valornull;
   }
