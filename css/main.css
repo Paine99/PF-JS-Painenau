@@ -124,15 +124,7 @@ body {
   .nav-toggle:focus:not(:focus-visible) {
     outline: none; }
   .texto, .texto2, .texto3 {
-    padding-top: 0; }
-  .formulario {
-    grid-template-columns: 1fr; }
-  .formulario__grupo-terminos,
-  .formulario__mensaje,
-  .formulario__grupo-btn-enviar {
-    grid-column: 1; }
-  .formulario__btn {
-    width: 100%; } }
+    padding-top: 0; } }
 
 /* MOBILE */
 @media (max-width: 576px) {
@@ -436,11 +428,11 @@ img {
   border-radius: 3px;
   display: none; }
 
-.formulario__mensaje-activo {
-  display: block; }
-
 .formulario__mensaje p {
   margin: 0; }
+
+.formulario__mensaje-activo {
+  display: block; }
 
 .formulario__grupo-btn-enviar {
   display: flex;
@@ -452,15 +444,14 @@ img {
   line-height: 45px;
   width: 30%;
   background: #000;
-  color: #fff;
+  color: #FFF;
   font-weight: bold;
   border: none;
   border-radius: 3px;
   cursor: pointer;
   transition: .1s ease all; }
-
-.formulario__btn:hover {
-  box-shadow: 3px 0px 30px #a3a3a3; }
+  .formulario__btn:hover {
+    box-shadow: 3px 0px 30px #a3a3a3; }
 
 .formulario__mensaje-exito {
   font-size: 14px;
@@ -470,7 +461,6 @@ img {
 .formulario__mensaje-exito-activo {
   display: block; }
 
-/* ----- -----  Estilos para Validacion ----- ----- */
 .formulario__grupo-correcto .formulario__validacion-estado {
   color: #1ed12d;
   opacity: 1; }
