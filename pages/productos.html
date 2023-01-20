@@ -21,6 +21,7 @@
     <script defer src="../scripts/modal.js"></script>
     <script defer src="../scripts/app.js"></script>
     <script defer src="../scripts/nocturneMode.js"></script>
+    <script defer src="../scripts/formulario.js"></script>
 </head>
 
 <body class="container-fluid px-0">
@@ -54,15 +55,20 @@
         </nav>
     </header>
     <div class="container text-center pt-1 ">
-        <div class="row align-items-center">
-          <div class="col">
-            <h1>Productos</h1>
-          </div>
-          <div class="col">
-            <button id="boton-carrito"><i class="fas fa-shopping-cart boton-carritoDark"></i><span id="contadorCarrito">0</span></button>
-          </div>
+        <h1>Productos</h1>
+        <div class="d-flex justify-content-end align-items-center">
+            <div>
+                <button class="switch" id="switch">
+                    <span><i class="fa-solid fa-sun"></i></span>
+                    <span><i class="fa-solid fa-moon"></i></span>
+                </button>
+            </div>
+            <div class="">
+                <button id="boton-carrito"><i class="fas fa-shopping-cart boton-carritoDark"></i><span
+                        id="contadorCarrito">0</span></button>
+            </div>
         </div>
-      </div>
+    </div>
     <main class="container pt-2" id="contenedor-productos">
         <div class="modal-contenedor">
             <div class="modal-carrito">
@@ -89,10 +95,7 @@
             </div>
         </div>
     </div>
-    <button class="switch" id="switch">
-        <span><i class="fa-solid fa-sun"></i></span>
-        <span><i class="fa-solid fa-moon"></i></span>
-      </button>
+
     <footer class="colorgl2 mt-4">
 
         <a href="https://www.facebook.com/"><img src="../media/icons/icons8-facebook-50.png"
