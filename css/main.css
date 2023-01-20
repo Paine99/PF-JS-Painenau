@@ -359,6 +359,9 @@ img {
   align-items: center;
   justify-content: center; }
 
+body.dark .licolor {
+  background-color: #969696 !important; }
+
 .swiper {
   width: 100%; }
 
