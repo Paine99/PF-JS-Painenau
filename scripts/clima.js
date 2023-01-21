@@ -31,7 +31,6 @@ function callAPI(city, country){
                 clearHTML();
                 showWeather(dataJSON);
             }
-            console.log(dataJSON);
         })
         .catch(error => {
             console.log(error);
@@ -56,12 +55,6 @@ function showWeather(data){
     `;
 
     result.appendChild(content);
-    console.log(name);
-    console.log(temp);
-    console.log(temp_max);
-    console.log(temp_min);
-    console.log(arr.icon);
-    console.log(arr.description)
 }
 
 function showError(message){
