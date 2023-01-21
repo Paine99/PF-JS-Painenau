@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="../css/main.css">
   <script defer src="../scripts/nocturneMode.js"></script>
   <script defer src="../scripts/formulario.js"></script>
+  <script defer src="../scripts/clima.js"></script>
 
 </head>
 
@@ -76,10 +77,34 @@
           <li class="list-group-item text-center licolor">Cheque pago a 30 dias</li>
           <li class="list-group-item text-center licolor">Pagos con tarjeta</li>
           <li class="list-group-item text-center licolor">Descuentos en Efectivo y Transferencia bancaria</li>
+          <li class="list-group-item text-center licolor">Por Motivos de prevencion no llevamos vidrios simples o DVH en climas de mucho viento o lluvias</li>
+          <li class="list-group-item text-center licolor">Por favor revise a continuacion la situacion del clima</li>
 
         </ul>
       </div>
     </div>
+
+    <section class="weather-content">
+      <h1>Buscador del clima</h1>
+      <div class="result">
+          <p>Agrege cuidad y pais</p>
+      </div>
+      <form action="" method="POST" class="get-weather">
+          <select name="" id="city">
+              <option disabled selected value="">Select the city</option>
+              <option value="Trelew">Trelew</option>
+              <option value="Rawson">Rawson</option>
+              <option value="Puerto Madryn">Pto Madryn</option>
+              <option value="Gaiman">Gaiman</option>
+          </select>
+          <select name="" id="country">
+              <option disabled selected value="">Select the country</option>
+              <option value="AR">Argentina</option>
+          </select>
+          <input type="submit" name="" id="" value="Get Weather">
+      </form>
+  </section>
+      <h2 class="text-center mt-5">Formulario de Contacto</h2>
     <form action="" class="formulario" id="formulario">
       
       <div class="formulario__grupo" id="grupo__usuario">
