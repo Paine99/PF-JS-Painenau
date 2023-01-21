@@ -14,7 +14,7 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/main.css">
   <script defer src="../scripts/nocturneMode.js"></script>
-
+  <script defer src="../scripts/formulario.js"></script>
 
 </head>
 
@@ -81,6 +81,7 @@
       </div>
     </div>
     <form action="" class="formulario" id="formulario">
+      
       <div class="formulario__grupo" id="grupo__usuario">
         <label for="usuario" class="formulario__label">Usuario.</label>
         <div class="formulario__grupo-input">
@@ -97,26 +98,7 @@
           <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Leonardo">
           <i class="fa-sharp fa-solid fa-circle-xmark formulario__validacion-estado"></i>
         </div>
-        <p class="formulario__input-error">El nombre tiene que ser de 4 a 16 digitos y solo puede contener numeros,
-          letras y guion bajo. </p>
-      </div>
-
-      <div class="formulario__grupo" id="grupo__password">
-        <label for="password" class="formulario__label">Contraseña.</label>
-        <div class="formulario__grupo-input">
-          <input type="password" class="formulario__input" name="password" id="password">
-          <i class="fa-sharp fa-solid fa-circle-xmark formulario__validacion-estado"></i>
-        </div>
-        <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 digitos</p>
-      </div>
-
-      <div class="formulario__grupo" id="grupo__password2">
-        <label for="password2" class="formulario__label">Repita contraseña.</label>
-        <div class="formulario__grupo-input">
-          <input type="password" class="formulario__input" name="password2" id="password2">
-          <i class="fa-sharp fa-solid fa-circle-xmark formulario__validacion-estado"></i>
-        </div>
-        <p class="formulario__input-error">Ambas contraseñas deben ser iguales.</p>
+        <p class="formulario__input-error">El nombre tiene que ser de 4 a 16 digitos y solo puede contener letras. </p>
       </div>
 
       <div class="formulario__grupo" id="grupo__correo">
